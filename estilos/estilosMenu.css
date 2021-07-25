@@ -91,8 +91,16 @@ header{
     margin-bottom: 20px;
 }
 
-.redes-encabezado a i:hover{
-    color: #ffffff;
+a[href="https://www.facebook.com"],i[class="fa fa-facebook"]:hover{
+    color: #3b5998;
+}
+
+a[href="https://www.instagram.com"],i[class="fa fa-instagram"]:hover{
+    color: #d628b0;
+}
+
+a[href="https://www.twitter.com"],i[class="fa fa-twitter"]:hover{
+    color: #00acee;
 }
 
 /*Estilos del footer*/
@@ -138,8 +146,16 @@ footer{
     margin-bottom: 20px;
 }
 
-.redes_sociales a:hover i{
-    color: #fca311;
+a[href="https://www.facebook.com"],i[class="fa fa-facebook"]:hover{
+    color: #3b5998;
+}
+
+a[href="https://www.instagram.com"],i[class="fa fa-instagram"]:hover{
+    color: #d628b0;
+}
+
+a[href="https://www.twitter.com"],i[class="fa fa-twitter"]:hover{
+    color: #00acee;
 }
 
 .derechos{

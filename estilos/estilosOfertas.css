@@ -90,10 +90,6 @@ header{
     margin-bottom: 20px;
 }
 
-.redes-encabezado a i:hover{
-    color: #ffffff;
-}
-
 /*Estilos del footer*/
 footer{
     background: #080f1b;
@@ -137,8 +133,16 @@ footer{
     margin-bottom: 20px;
 }
 
-.redes_sociales a:hover i{
-    color: #fca311;
+a[href="https://www.facebook.com"],i[class="fa fa-facebook"]:hover{
+    color: #3b5998;
+}
+
+a[href="https://www.instagram.com"],i[class="fa fa-instagram"]:hover{
+    color: #d628b0;
+}
+
+a[href="https://www.twitter.com"],i[class="fa fa-twitter"]:hover{
+    color: #00acee;
 }
 
 .derechos{
@@ -175,7 +179,6 @@ footer{
     text-align: center;
     margin-bottom: 40px;
     font-family: 'Source Sans Pro', sans-serif;
-    text-shadow: 0 0 3px #b6b5b5;
 }
 
 .contenedor-ofertas:hover{
